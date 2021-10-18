@@ -22,7 +22,7 @@
                           style="width: 250px;margin-right: 5px"></el-input>
                 <img :src="captchaUrl" @click="updateCaptcha">
             </el-form-item>
-            <el-checkbox v-model="checked" class="loginRemember">记住我</el-checkbox>
+            <el-checkbox v-model="checked" class="loginRemember">请记住我</el-checkbox>
             <el-button type="primary" style="width: 100%" @click="submitLogin">登录</el-button>
         </el-form>
     </div>
