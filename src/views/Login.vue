@@ -49,6 +49,8 @@
             }
         },
         methods: {
+
+            // 我是b 准备提交
             updateCaptcha() {
                 this.captchaUrl = '/captcha?time=' + new Date();
             },
