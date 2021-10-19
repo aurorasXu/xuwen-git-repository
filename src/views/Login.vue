@@ -49,6 +49,7 @@
             }
         },
         methods: {
+            // 这是a 我也想在这里提交一句话
             updateCaptcha() {
                 this.captchaUrl = '/captcha?time=' + new Date();
             },
